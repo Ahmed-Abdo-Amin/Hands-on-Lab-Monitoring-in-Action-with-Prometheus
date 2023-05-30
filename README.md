@@ -15,10 +15,7 @@ After completing this exercise, you should be able to:
 ## Prerequisites
 
 
-This lab uses Docker to run both Prometheus, and special Node Exporters, which will behave like servers that you can monitor. As a prerequisite, you will pull down the <span style="color:orange; 
-        border-style: solid; 
-        border-width: thin; 
-        border-color:black">bitnami/prometheus:latest</span> image and the <span style="color:orange; 
+This lab uses Docker to run both Prometheus, and special Node Exporters, which will behave like servers that you can monitor. As a prerequisite, you will pull down the 'bitnami/prometheus:latest' image and the <span style="color:orange; 
         border-style: solid; 
         border-width: thin; 
         border-color:black">bitnami/node-exporter</span> image from Docker Hub. You will use these images to run Prometheus and create three instances of node exporters to be monitored.
