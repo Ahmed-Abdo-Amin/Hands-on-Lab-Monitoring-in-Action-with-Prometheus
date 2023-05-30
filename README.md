@@ -1,5 +1,5 @@
 # Hands-on Lab: Monitoring in Action with Prometheus
-
+<style>H1{color:Blue;}</style>
 ## <img src="./images/intr.png" width='60'> Introduction
 Welcome to the Monitoring with Prometheus lab. In this lab, you will become familiar with using Prometheus to monitor sample servers simulated with node exporter. You will use Prometheus to monitor the target node_exporter application that is configured by scraping metrics endpoints of the node_exporter. You will finish the lab by learning how to instrument a Python Flask application to emit metrics and deploy that application so that Prometheus can monitor it.
 
