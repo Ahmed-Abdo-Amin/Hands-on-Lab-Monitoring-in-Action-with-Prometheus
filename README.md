@@ -342,7 +342,7 @@ Note: You configured Prometheus to scrape every 15 seconds, so you may have to w
 
 ![node_down](./images/node_down.png)
 
-## <img src="./images/Step-7.png" width='60'> Enable your application: 
+## <img src="./images/Step7.png" width='60'> Enable your application: 
 
 Monitoring node exporters is fine for a demonstration, but you are a software engineer. You need to know how to enable your applications to be monitored by Prometheus. There is no magic here. Metrics do not simply appear out of nowhere. You must instrument your application to emit metrics on an endpoint called <span style="color:orange; 
         border-style: solid; 
